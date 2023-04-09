@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  #board {
+    display: grid;
+    grid-template-columns: repeat(8, 50px);
+    grid-template-rows: repeat(8, 50px);
+    gap: 1px;
+    background-color: #008000;
+  }
+  
+  .cell {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #007200;
+    border: 1px solid #006200;
+  }
+  
+  .cell.valid-move {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  
+  .black, .white {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .black {
+    background-color: #000000;
+  }
+  
+  .white {
+    background-color: #ffffff;
+  }
+  
