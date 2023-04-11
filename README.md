@@ -13,3 +13,6 @@ Download all files and open `othello.html` in your browser.
 
 すべてのファイルをダウンロードし、`othello.html`をブラウザで開いてください。
 
+## Sample site
+
+https://hamham.ml/othello/othello.html
