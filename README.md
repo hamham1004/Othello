@@ -15,4 +15,4 @@ Download all files and open `othello.html` in your browser.
 
 ## Sample site
 
-https://hamham.ml/othello/othello.html
+https://hamham.dev/othello/othello.html
